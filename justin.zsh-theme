@@ -210,4 +210,4 @@ TRAPALRM() {
 
 # prompt
 # PROMPT='$(real_time) $(login_info) $(directory) $(git_status)$(command_status) ';
-PROMPT='$(directory) $(command_status) ';
+PROMPT='$(directory) $(git_status) $(command_status) ';
